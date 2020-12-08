@@ -1,0 +1,11 @@
+Assumptions I made in developing this software:
+
+1. I assumed that the client would grant privileges in their environment as needed, and I did not take additional steps to make my software grant privileges. Sudo is preferred for demoing. 
+2. I assumed the client wanted to have this software accessible through a browser so the environment could be shared with other users (not standalone on a single user's device)
+3. I assumed that port 80 could be used, as that is the default HTTP port. This allowed the omission of the port when visiting http://localhost in the browser, for convenience.
+4. I assumed that ID had to be no more than 7 characters but had to be greater than 1.
+5. I assumed that NUMBER had to be no more than 10 characters but had to be greater than 1.
+6. I assumed that COMMENT had to be no more than 42 characters but could also be blank.
+7. I assumed START_DATE is always in YYMMDD format, and could not be blank.
+8. I assumed END_DATE is always in YYMMDD format, and could not be blank.
+9. For flexibility, no consideration is made as to whether the START_DATE or END_DATE is in the past, present or future.

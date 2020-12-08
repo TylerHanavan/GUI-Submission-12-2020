@@ -1,0 +1,8 @@
+Questions for Client
+
+1. What directory do you want the generated files to be written to? Currently /tmp is used as it is not clear if the generated reports should be kept forever or if a batch process would come by to collect them.
+2. For $sysdate in the generated file names, do you want seconds, minutes and hours included?
+3. Should generated files be accessible by other users who use the client software?
+4. Should generated files be viewable inside of the Apache web server?
+5. Should ID auto-populate with an ID based on what the previous ID used was?
+6. Should START_DATE auto-populate with today's date?
